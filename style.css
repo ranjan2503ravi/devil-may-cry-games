@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-color: black;
+}
+.nav-bar {
+  width: 100vw;
+  height: 10vh;
+  background-color: #000000;
+  color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.hero {
+  display: flex;
+}
+.hero .ones {
+  width: 60%;
+  height: 80%;
+  object-fit: cover;
+  object-position: center;
+}
+.main {
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  color: white;
+}
+.box1 {
+  width: 35vw;
+  height: 70vh;
+  background-color: red;
+  background-image: url("https://www.devilmaycry.com/en/images/switch/dmc1-pc.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.box2 {
+  width: 35vw;
+  height: 70vh;
+  background-color: red;
+  background-image: url(https://www.devilmaycry.com/en/images/switch/dmc2-pc.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.box3 {
+  width: 35vw;
+  height: 70vh;
+  background-color: red;
+  background-image: url("https://www.devilmaycry.com/en/images/switch/dmc3-pc.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.bo {
+  background-color: black;
+  width: 250px;
+  height: 40px;
+  border: 2px solid white;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main img {
+  width: 70%;
+  height: 10%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  left: 200px;
+  top: 600px;
+}
+.box5 {
+  width: 100%;
+  height: 50%;
+}
+video {
+  /* height: 80vh;  */
+}
+.box6 {
+  width: 60%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://staticg.sportskeeda.com/editor/2019/03/8815a-15523661787614-800.jpg);
+}
+.m {
+  margin-left: 600px;
+  margin-top: 50px;
+}
+.no {
+  border-bottom: 1px solid red;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+
+}
+.footer2 {
+  margin-top: 10px;
+  color: white;
+  margin-left: 400px;
+  padding: 15px;
+}
+.footer2 h1 {
+  border-top: 2px solide rgb(216, 13, 13);
+}
+.footer2 i{
+    padding: 15px;
+    font-size: 35px;
+}
+.mk{
+    margin-left: 430px;
+}
